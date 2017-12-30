@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2055C15FDB107187243EC180 /* Pods_ComfortApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B99DEF207846BFED9EE4DC2 /* Pods_ComfortApp.framework */; };
+		221ED4EE1FF7485300492213 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221ED4ED1FF7485300492213 /* GoogleService-Info.plist */; };
+		221ED4EF1FF7485300492213 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221ED4ED1FF7485300492213 /* GoogleService-Info.plist */; };
+		221ED4F01FF7485300492213 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 221ED4ED1FF7485300492213 /* GoogleService-Info.plist */; };
 		226D65E11FF318B200F5F9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D65E01FF318B200F5F9D4 /* AppDelegate.swift */; };
 		226D65E31FF318B200F5F9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D65E21FF318B200F5F9D4 /* ViewController.swift */; };
 		226D65E61FF318B200F5F9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 226D65E41FF318B200F5F9D4 /* Main.storyboard */; };
@@ -20,9 +23,6 @@
 		226D66151FF5B95900F5F9D4 /* ExposureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D66141FF5B95900F5F9D4 /* ExposureViewController.swift */; };
 		226D66171FF5B9DB00F5F9D4 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D66161FF5B9DB00F5F9D4 /* StatusViewController.swift */; };
 		226D66191FF5C19900F5F9D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D66181FF5C19900F5F9D4 /* LoginViewController.swift */; };
-		22CBB9A91FF5D8EB008CFFFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22CBB9A81FF5D8EB008CFFFF /* GoogleService-Info.plist */; };
-		22CBB9AA1FF5D8EB008CFFFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22CBB9A81FF5D8EB008CFFFF /* GoogleService-Info.plist */; };
-		22CBB9AB1FF5D8EB008CFFFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22CBB9A81FF5D8EB008CFFFF /* GoogleService-Info.plist */; };
 		4FE14CE6369CE0C71ACC6A6C /* Pods_ComfortAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150358BC74FD6F5C28031D4C /* Pods_ComfortAppTests.framework */; };
 		7A373709EED4E0DA2F4DA41E /* Pods_ComfortAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19AB237748BEC9479F6219C7 /* Pods_ComfortAppUITests.framework */; };
 /* End PBXBuildFile section */
@@ -49,6 +49,7 @@
 		0B99DEF207846BFED9EE4DC2 /* Pods_ComfortApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComfortApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		150358BC74FD6F5C28031D4C /* Pods_ComfortAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComfortAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19AB237748BEC9479F6219C7 /* Pods_ComfortAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComfortAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		221ED4ED1FF7485300492213 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		223D4E28C66D76CFE23DAD17 /* Pods-ComfortAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComfortAppTests/Pods-ComfortAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		226D65DD1FF318B200F5F9D4 /* ComfortApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComfortApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		226D65E01FF318B200F5F9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		226D66141FF5B95900F5F9D4 /* ExposureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureViewController.swift; sourceTree = "<group>"; };
 		226D66161FF5B9DB00F5F9D4 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 		226D66181FF5C19900F5F9D4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		22CBB9A81FF5D8EB008CFFFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5DFBDEC9E08CEA79E3EA689A /* Pods-ComfortAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComfortAppUITests/Pods-ComfortAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		786ED8AF8743FB291E669C6A /* Pods-ComfortApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComfortApp/Pods-ComfortApp.release.xcconfig"; sourceTree = "<group>"; };
 		7CE79296CFD0112F324F98BC /* Pods-ComfortAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComfortAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ComfortAppTests/Pods-ComfortAppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,7 +148,7 @@
 				226D660E1FF3192200F5F9D4 /* Login.storyboard */,
 				226D65E91FF318B200F5F9D4 /* LaunchScreen.storyboard */,
 				226D65EC1FF318B200F5F9D4 /* Info.plist */,
-				22CBB9A81FF5D8EB008CFFFF /* GoogleService-Info.plist */,
+				221ED4ED1FF7485300492213 /* GoogleService-Info.plist */,
 				226D65E71FF318B200F5F9D4 /* Assets.xcassets */,
 			);
 			path = ComfortApp;
@@ -303,7 +303,7 @@
 			files = (
 				226D660F1FF3192200F5F9D4 /* Login.storyboard in Resources */,
 				226D65EB1FF318B200F5F9D4 /* LaunchScreen.storyboard in Resources */,
-				22CBB9A91FF5D8EB008CFFFF /* GoogleService-Info.plist in Resources */,
+				221ED4EE1FF7485300492213 /* GoogleService-Info.plist in Resources */,
 				226D65E81FF318B200F5F9D4 /* Assets.xcassets in Resources */,
 				226D65E61FF318B200F5F9D4 /* Main.storyboard in Resources */,
 			);
@@ -313,7 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22CBB9AA1FF5D8EB008CFFFF /* GoogleService-Info.plist in Resources */,
+				221ED4EF1FF7485300492213 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22CBB9AB1FF5D8EB008CFFFF /* GoogleService-Info.plist in Resources */,
+				221ED4F01FF7485300492213 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
